@@ -1,0 +1,28 @@
+.DS_Store
+.idea/
+.venv/
+__pycache__/
+
+# сырые данные extract.py: содержат текст первых страниц всех файлов
+tools/raw.json
+tools/meta/private.json
+
+# личные документы, не книги
+books/акт приема передачи.pdf
+books/112901635Рентгенография стоп с функциональной нагрузкой*.pdf
+books/115678423Паразитология.pdf
+books/2_5454205164195974753.pdf
+books/2_5460781510745430415.pdf
+books/2_5460843796361155210.pdf
+books/6ZBZ7W_documents.pdf
+
+# больше 100 МБ: GitHub не принимает такие файлы
+books/Ageeva_Z_B_-_Nemetskiy_yazyk_Samouchitel_dlya_nachinayuschikh_Yazyk_bez_granits_-_2014.pdf
+books/Bukharov_V_M_Prakticheskiy_kurs_nemetskogo_yazyka.pdf
+books/Diskretnaya_matematika_i_kombinatorika_2004_Dzheyms_Anderson.pdf
+books/SQL для анализа данных.pdf
+books/Компьютерные_сети.pdf
+books/Косяков_А_,_Свит_У_Системная_инженерия_Принципы_и_практика_Второе (1).pdf
+
+# недокачанные файлы
+*.tmp
